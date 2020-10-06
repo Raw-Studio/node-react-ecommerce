@@ -99,10 +99,7 @@ a:hover {
   font-size: 2rem;
   font-weight: bold;
 }
-.product-image {
-  max-width: 34rem;
-  max-height: 34rem;
-}
+
 .product-rating {
   margin-bottom: 1rem;
 }
@@ -462,4 +459,16 @@ tbody > tr:nth-child(odd) {
 
 .categories a:hover {
   background-color: #c0c0c0;
+}
+
+.product-image{
+  width: 400px;
+  height: 400px;
+}
+
+.details-image{
+  img{
+    width: 60rem;
+    height: 60rem;
+  }
 }
