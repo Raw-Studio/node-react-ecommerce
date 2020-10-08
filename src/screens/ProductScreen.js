@@ -116,7 +116,6 @@ function ProductScreen(props) {
               </ul>
             </div>
           </div>
-          {/*
           <div className="content-margined">
             <h2>Reviews</h2>
             {!product.reviews.length && <div>There is no review</div>}
@@ -174,7 +173,6 @@ function ProductScreen(props) {
               </li>
             </ul>
           </div>
-          */}
         </>
       )}
     </div>

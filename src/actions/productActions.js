@@ -18,7 +18,7 @@ import {
 import axios from 'axios';
 import Axios from 'axios';
 
-const URL_PRODUCTS = 'http://localhost:8000/api/products/'
+const URL_PRODUCTS = 'http://localhost:8080/api/products/'
 const listProducts = (
   category = '',
   searchKeyword = '',
@@ -27,7 +27,7 @@ const listProducts = (
   try {
     dispatch({ type: PRODUCT_LIST_REQUEST });
     const { data } = await axios.get(
-      'http://localhost:8000/api/products?category=' +
+      'http://localhost:8080/api/products?category=' +
         category +
         '&searchKeyword=' +
         searchKeyword +
